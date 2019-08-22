@@ -2,118 +2,20 @@
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./navbar.css" rel="stylesheet">
     <meta name="title" content="Strand Guns"> <meta name="keywords" content="guns,firearms,ammunition,strand" <meta name="author" content="Jonathan Wright">
-<style>
-body {margin: 0;}
-
-h2 {
-    font-family: 'Black Ops One', cursive;
-    font-size: 40px;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Black Ops One', cursive;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 2px;
-}
-
-p {
-    font-family: sans-serif;
-    text-align: center;
-}
-
-#home {
-
-}
-
-#about {
-
-}
-
-#contact {
-
-}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: sans-serif;
-  text-align: justified;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: rgba(165, 42, 42, 0.815);}
-
-ul.topnav li.right {float: right;}
-
-ul.div {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-ul {
-    font-family: sans-serif;
-}
-
-@media screen and (min-width: 601px) {
-    img {width: 200px}
-}
-
-@media screen and (max-width: 600px) {
-    img {width: 300px}
-}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-
-img {
-    display: flex;
-    max-width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.firearm-logo {
-    display: flex;
-    flex-direction: row;
-    max-width: 200px;
-    height: auto;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<ul class="topnav">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#about">About Us</a></li>
-  <li><a href="#contact">Contact Us</a></li>
-</ul>
+<div class="navigation-bar-container">
+  <ul class="navigation-bar">
+    <li class="active"><a class="active" href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</div>
 
 <div>
   <h2 id="home">STRAND GUNS</h2>
@@ -131,14 +33,14 @@ img {
 </div>
 <hr color="#111">
 <div>
-    <h3 id="about" style="margin 0 0 0 0px">About Us</h2>
+    <h3 id="about" style="margin 0 0 0 0px">About Us</h3>
     <p>Strand Guns is a small outfit with emphasis on personal service. We strive to be competitive while selling quality equipment tailored to the individuals need and budget.</p>
     <p>Founded in 1996 by Mossie Mostert, a dear friend and mentor of the current owner, Strand Guns has been operating in the Helderberg basin since 1996.</p>
     <p>With over 20 years experience in the industry, we advise our clients to the best of our ability.</p>
 </div>
 <hr color="#111">
 <div>
-    <h3 id="contact">Contact Us</h2>
+    <h3 id="contact">Contact Us</h3>
     <p>Call us on: (021) 854 4076</p>
     <p>Vist us at: Meerlust Park, Unit 13, Henry Vos Close, Asla Crescent, Strand, 7140</p>
     <p>Our operating hours are:</p>
